@@ -13,4 +13,5 @@ def reverseComplement(sequence):
         if i == "u":
             revseq += "a"
 
+
     return revseq.upper()
