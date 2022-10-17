@@ -1,6 +1,3 @@
-sequence = input().lower();
-
-
 def checkPolymerType(inputString):
     polymerType = "unknown";
     notprotein = ("b", "j", "o", "u", "x", "z")
@@ -31,6 +28,3 @@ def checkPolymerType(inputString):
 
 
 
-print("Your sequence is: ", sequence)
-# PolymerType = checkPolymerType(sequence);
-print(checkPolymerType(sequence))
